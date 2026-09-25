@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Мой первый сайт</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #111;
+            color: white;
+        }
+
+        header {
+            background: #1c1c1c;
+            padding: 25px 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 26px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-left: 25px;
+        }
+
+        .hero {
+            min-height: 500px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            padding: 30px;
+        }
+
+        .hero h1 {
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            color: #bbbbbb;
+            max-width: 600px;
+        }
+
+        .button {
+            margin-top: 25px;
+            padding: 15px 30px;
+            background: white;
+            color: black;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+        }
+
+        .about {
+            background: #1c1c1c;
+            padding: 70px 20px;
+            text-align: center;
+        }
+
+        .about h2 {
+            font-size: 35px;
+        }
+
+        .about p {
+            max-width: 700px;
+            margin: auto;
+            color: #bbbbbb;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            color: #777;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <div class="logo">MY SITE</div>
+
+        <nav>
+            <a href="#home">Главная</a>
+            <a href="#about">О сайте</a>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <h1>Мой первый сайт</h1>
+
+        <p>
+            Добро пожаловать на мой первый веб-сайт.
+            Этот проект создан в рамках учебного задания.
+        </p>
+
+        <a class="button" href="#about">Узнать больше</a>
+    </section>
+
+    <section class="about" id="about">
+        <h2>О проекте</h2>
+
+        <p>
+            Данный сайт разработан с использованием HTML и CSS.
+            Здесь можно разместить информацию о проекте,
+            учебной работе или о себе.
+        </p>
+    </section>
+
+    <footer>
+        © 2026 Мой первый сайт
+    </footer>
+
+</body>
+</html>
